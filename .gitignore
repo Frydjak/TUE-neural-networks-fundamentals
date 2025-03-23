@@ -2,4 +2,5 @@
 .DS_Store
 
 # Datasets, too large for github
-Datasets/*.csv
+Datasets/*
+!Datasets/mnist.csv.zip
