@@ -20,4 +20,4 @@ implemented solution focuses on comparing different learning algorithms.
 It is recommended to use the course-provided "experiments" environment to run the code.
 
 ### Dataset download
-Provided in repository
+Provided in Datasets folder is zipped file of mnist set. This set contains all samples without any division for train, test or validation set. To run the programs please unzip the file manually.
