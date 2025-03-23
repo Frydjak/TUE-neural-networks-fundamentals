@@ -20,3 +20,4 @@ implemented solution focuses on comparing different learning algorithms.
 It is recommended to use the course-provided "experiments" environment to run the code.
 
 ### Dataset download
+Provided in repository
