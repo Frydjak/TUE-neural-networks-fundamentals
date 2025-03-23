@@ -11,8 +11,11 @@ The project is based on the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_
 Implemented solution focuses on comparing different learning algorithms.
 ![image](https://github.com/user-attachments/assets/0c40c5d5-d71f-48f9-b2c4-adb2b2627e51)
 ### Gradient descent (GD)
+to be completed
 ### Mini batch gradient descent (MBGD)
+to be completed
 ### Pytorch Convolutional Neural Network (CNN)
+to be completed
 
 
 ## Running the code
