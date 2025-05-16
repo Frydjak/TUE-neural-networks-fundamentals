@@ -1,4 +1,4 @@
-# Neural-Networks-Fundamentals
+# Neural Networks Fundamentals
 
 This project is part of the 5LSH0 - Computer Vision AI and 3D Data Analysis course at TU Eindhoven. It focuses on the fundamentals of neural networks, with emphasis on implementing them "from scratch", without using any widely aviable machione learning libraries.
 
