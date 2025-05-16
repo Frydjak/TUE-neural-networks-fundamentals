@@ -1,6 +1,6 @@
 # Neural Networks Fundamentals
 
-This project is part of the (cannot explicitly name it due to plagiarism prevention) course at TU Eindhoven. It focuses on the fundamentals of neural networks, with emphasis on implementing them "from scratch", without using any widely available machine learning libraries.
+This project is part of the (cannot explicitly name it due to plagiarism prevention) course at TU Eindhoven. It focuses on the fundamentals of neural networks, with emphasis on implementing them "from scratch", without using any widely available machine learning libraries. The goal was to classify hand written digits using different model structures as well as experiment with different training types and loss functions.
 
 ## Dataset
 The project is based on the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database), which consists of 28x28 grayscale images of handwritten digits. The dataset is widely used for training and testing in the field of machine learning.
