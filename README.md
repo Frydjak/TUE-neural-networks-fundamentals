@@ -12,7 +12,10 @@ Implemented solution focuses on comparing different learning algorithms.
 ![image](https://github.com/user-attachments/assets/0c40c5d5-d71f-48f9-b2c4-adb2b2627e51)
 
 ### Batch Gradient Descent (BGD)
-**Model Structure:** Input layer: 784 neurons (flattened 28×28 image), Hidden layer: 64 neurons, activation: sigmoid, Output layer: 10 neurons (digit classes 0–9), output activation: softmax
+**Model Structure:** <br>
+Input layer: 784 neurons (flattened 28×28 image)<br>
+Hidden layer: 64 neurons, activation: sigmoid<br>
+Output layer: 10 neurons (digit classes 0–9), output activation: softmax<br>
 
 **Hyperparameters:** epochs: 2000, alpha: 0.2, activation: sigmoid
 
@@ -20,7 +23,10 @@ Implemented solution focuses on comparing different learning algorithms.
 ![image](https://github.com/user-attachments/assets/f85ab46c-eb12-47c1-b83b-a01107259282)
 
 ### Mini batch gradient descent (MBGD)
-**Model Structure:** Input layer: 784 neurons (flattened 28×28 image), Hidden layer: 64 neurons, activation: sigmoid, Output layer: 10 neurons (digit classes 0–9), output activation: softmax
+**Model Structure:** <br>
+Input layer: 784 neurons (flattened 28×28 image) <br>
+Hidden layer: 64 neurons, activation: sigmoid <br>
+Output layer: 10 neurons (digit classes 0–9), output activation: softmax <br>
 
 **Hyperparameters:** epochs: 200, alpha: 0.1, activation: sigmoid, batch size: 64
 
@@ -28,8 +34,14 @@ Implemented solution focuses on comparing different learning algorithms.
 ![image](https://github.com/user-attachments/assets/95f61edb-8e00-45c5-b5de-016f5a845888)
 
 ### Pytorch Convolutional Neural Network (CNN)
-**Model Structure:** Input: 1×28×28 grayscale image, Conv Layer 1: 32 filters, 3×3 kernel, padding=1 → ReLU → MaxPool (2×2), Conv Layer 2: 64 filters, 3×3 kernel, padding=1 → ReLU → MaxPool (2×2), Flatten: Output reshaped to 3136 features (64×7×7), Fully Connected Layer 1: 3136 → 128 → ReLU, Fully Connected Layer 2: 128 → Output layer: 10 neurons (digit classes 0–9), output activation: logsoftmax
-**epochs:** 10, learning rate: 0.001, batch size: 256, optimizer: Adam, activation: ReLU + LogSoftmax
+**Model Structure:** 
+Input: 1×28×28 grayscale image <br>
+Conv Layer 1: 32 filters, 3×3 kernel, padding=1 → ReLU → MaxPool (2×2) <br>
+Conv Layer 2: 64 filters, 3×3 kernel, padding=1 → ReLU → MaxPool (2×2), Flatten: Output reshaped to 3136 features (64×7×7) <br>
+Fully Connected Layer 1: 3136 → 128 → ReLU <br>
+Fully Connected Layer 2: 128 → Output layer: 10 neurons (digit classes 0–9), output activation: logsoftmax
+
+**Hyperparameters:** epochs: 10, learning rate: 0.001, batch size: 256, optimizer: Adam, activation: ReLU + LogSoftmax
 
 **Results:** training time: 233s, test accuracy: 0.995, test loss: 0.037
 ![image](https://github.com/user-attachments/assets/ed9e9866-016f-4d04-9604-4ee29effd7d0)
