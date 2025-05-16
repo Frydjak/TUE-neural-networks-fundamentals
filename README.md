@@ -10,12 +10,25 @@ The project is based on the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_
 ## Implementation
 Implemented solution focuses on comparing different learning algorithms.
 ![image](https://github.com/user-attachments/assets/0c40c5d5-d71f-48f9-b2c4-adb2b2627e51)
-### Gradient descent (GD)
-to be completed
+
+### Batch Gradient Descent (BGD)
+**Hyperparameters:** epochs: 2000, alpha: 0.2, activation: sigmoid
+
+**Results:** training time: 3432s, test accuracy: 0.925, test loss: 0.300
+![image](https://github.com/user-attachments/assets/f85ab46c-eb12-47c1-b83b-a01107259282)
+
 ### Mini batch gradient descent (MBGD)
-to be completed
+**Hyperparameters:** epochs: 200, alpha: 0.1, activation: sigmoid, batch size: 64
+
+**Results:** training time: 620s, test accuracy: 0.933, test loss: 0.237
+![image](https://github.com/user-attachments/assets/95f61edb-8e00-45c5-b5de-016f5a845888)
+
 ### Pytorch Convolutional Neural Network (CNN)
-to be completed
+**epochs:** 10, learning rate: 0.001, batch size: 256, optimizer: Adam, activation: ReLU + LogSoftmax, loss function: CrossEntropyLoss
+
+**Results:** training time: 233s, test accuracy: 0.995, test loss: 0.037
+![image](https://github.com/user-attachments/assets/ed9e9866-016f-4d04-9604-4ee29effd7d0)
+
 
 
 ## Running the code
